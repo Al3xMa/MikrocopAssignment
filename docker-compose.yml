@@ -55,10 +55,6 @@ services:
     ports:
       - 5000:8080
       - 5001:8081
-    environment:
-      # Seq
-      - OTEL_EXPORTER_OTLP_ENDPOINT=http://devhabit.seq:5341/ingest/otlp
-      - OTEL_EXPORTER_OTLP_PROTOCOL=http/protobuf
     depends_on:
       db-init:
         condition: service_completed_successfully 
