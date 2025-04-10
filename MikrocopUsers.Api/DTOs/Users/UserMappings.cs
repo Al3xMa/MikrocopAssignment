@@ -15,6 +15,9 @@ public static class UserMappings
             MobileNumber = user.MobileNumber,
             Language = user.Language,
             Culture = user.Culture,
+            JobTitle = user.JobTitle,
+            Department = user.Department,
+            Company = user.Company,
             Password = user.Password
         };
     }
@@ -29,6 +32,9 @@ public static class UserMappings
             MobileNumber = createUserDto.MobileNumber,
             Language = createUserDto.Language,
             Culture = createUserDto.Culture,
+            JobTitle = createUserDto.JobTitle,
+            Department = createUserDto.Department,
+            Company = createUserDto.Company,
             Password = createUserDto.Password
         };
     }
