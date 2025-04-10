@@ -13,7 +13,9 @@ You need to have a https certificate for this to work, otherwise api container w
 Easiest way to get this is to run **dotnet dev-certs https --export-path ./certs/webapicert.pfx --password "addpassword"** in the root folder of the project.
 
 You must manually make folder certs in root of project folder so that certificate will generate there.
-You can see default certificate password in docker-compose.override.yml file. If you use other password for generation you need to change it here too.
+You can see default certificate password and name in docker-compose.override.yml file. If you use other you need to change it here too.
+
+You can also use any other certificate just make sure to change it in docker-compose.override.yml file.
 
 You should see something like this in docker desktop when it is finished:
 ![image](https://github.com/user-attachments/assets/673c0391-4267-4fc6-ad1c-3ffeb4e3440f)
