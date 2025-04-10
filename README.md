@@ -28,3 +28,6 @@ You will need to authorize it with api key which is in appsettings. You can also
 For logging is used Serilog and daily logs are stored in folder logs in project folder.
 
 ![image](https://github.com/user-attachments/assets/da85aa80-9e75-4ca3-afcd-8a8f78998985)
+
+
+All that was tested on Windows.
